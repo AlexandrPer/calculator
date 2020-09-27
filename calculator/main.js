@@ -8,7 +8,7 @@ class Calculator {
   }
 
   clear() {
-    this.currentOperand = '';
+    this.currentOperand = '0';
     this.signOperand = '';
     this.previousOperand = '';
     this.middleOperand = undefined;
