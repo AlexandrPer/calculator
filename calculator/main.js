@@ -8,7 +8,7 @@ class Calculator {
   }
 
   clear() {
-    this.currentOperand = '';
+    this.currentOperand = '0';
     this.signOperand = '';
     this.previousOperand = '';
     this.middleOperand = undefined;
@@ -24,7 +24,6 @@ class Calculator {
   }
 
   sqrt() {
-
     this.currentOperand = (this.currentOperand > 0) ? Math.sqrt(this.currentOperand) : this.currentOperand;
   }
 
